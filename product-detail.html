@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="تفاصيل منتج الرفوف الحديثة - اكتشف المواصفات، الأسعار، التقييمات، وأطلب الآن.">
+    <meta property="og:title" content="منتجات الرفوف الحديثة - حلول تخزين احترافية">
+    <meta property="og:image" content="images/alrfuf1.png">
+    <meta property="og:description" content="تصفح أفضل أنواع الرفوف للمستودعات والمنازل في السعودية.">
+    <title>تفاصيل المنتج - الرفوف الحديثة</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/alrfuf1.webp" alt="شعار متجر الرفوف الحديثةللرفوف المستودعات والسوبر ماركت ">
+                <span>الرفوف الحديثة</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="index.html">الرئيسية</a>
+                <div class="dropdown">
+                    <a href="products.html">المنتجات <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="products.html#warehouse">رفوف المستودعات</a>
+                        <a href="products.html#supermarket">رفوف السوبرماركت</a>
+                        <a href="products.html#home">رفوف منزلية</a>
+                        <a href="products.html#accessories">سلات تسوق وطاولات كاشير</a>
+                    </div>
+                </div>
+                <a href="about.html">عن الشركة</a>
+                <a href="articles.html">المقالات</a>
+                <a href="contact.html">اتصل بنا</a>
+                <a href="cart.html" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- مسار التنقل (Breadcrumb) -->
+    <div class="breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-links" id="breadcrumb">
+                <!-- سيتم تعبئته بجافاسكريبت -->
+            </div>
+        </div>
+    </div>
+
+    <!-- تفاصيل المنتج -->
+    <main class="product-detail">
+        <div class="container">
+            <div class="product-detail-wrapper">
+                <!-- قسم الصور -->
+                <div class="product-images">
+                    <div class="main-image">
+                        <img id="mainProductImage" src="" alt="صورة المنتج الرئيسية" loading="lazy">
+                    </div>
+                    <div class="thumbnails">
+                        <!-- سيتم تعبئتها بجافاسكريبت -->
+                    </div>
+                </div>
+
+                <!-- قسم معلومات المنتج -->
+                <div class="product-info-detail">
+                    <div class="category-breadcrumb" id="categoryBreadcrumb">
+                        <!-- سيتم تعبئته بجافاسكريبت -->
+                    </div>
+
+                    <h1 id="productTitle">جاري تحميل المنتج...</h1>
+
+                    <div class="product-rating-section">
+                        <div class="product-rating" id="productRating">
+                            <!-- سيتم تعبئته بجافاسكريبت -->
+                        </div>
+                        <div class="product-code">
+                            <span>كود المنتج: <strong id="productCode">MS-000-000</strong></span>
+                        </div>
+                    </div>
+
+                    <div class="product-price-large" id="productPrice">
+                        جاري تحميل السعر...
+                    </div>
+
+                    <div class="product-description">
+                        <h3>وصف المنتج</h3>
+                        <p id="productDescription">جاري تحميل وصف المنتج...</p>
+                    </div>
+
+                    <div class="product-specs">
+                        <h3>المواصفات الفنية</h3>
+                        <ul id="productSpecs">
+                            <!-- سيتم تعبئته بجافاسكريبت -->
+                        </ul>
+                    </div>
+
+                    <div class="product-actions">
+                        <div class="quantity-selector">
+                            <button class="qty-btn minus" id="decreaseQty">-</button>
+                            <input type="number" id="productQuantity" value="1" min="1" max="99">
+                            <button class="qty-btn plus" id="increaseQty">+</button>
+                        </div>
+
+                        <button class="btn btn-primary add-to-cart-detail" id="addToCartBtn">
+                            <i class="fas fa-shopping-cart"></i> أضف إلى السلة
+                        </button>
+
+                        <button class="btn btn-secondary" id="whatsappOrderBtn">
+                            <i class="fab fa-whatsapp"></i> اطلب عبر واتساب
+                        </button>
+                    </div>
+
+                    <div class="product-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-truck"></i>
+                            <div>
+                                <strong>شحن سريع</strong>
+                                <span>توصيل خلال24ساعة عمل</span>
+                            </div>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <strong>ضمان الجودة</strong>
+                                <span>ضمان 5 سنوات على المنتج</span>
+                            </div>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-headset"></i>
+                            <div>
+                                <strong>دعم فني</strong>
+                                <span>دعم فني مجاني للتركيب</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- التبويبات -->
+            <div class="product-tabs">
+                <div class="tabs-nav">
+                    <button class="tab-btn active" data-tab="reviews">التقييمات</button>
+                    <button class="tab-btn" data-tab="details">تفاصيل إضافية</button>
+                    <button class="tab-btn" data-tab="shipping">الشحن والتسليم</button>
+                </div>
+
+                <div class="tabs-content">
+
+                    <!-- تبويب التقييمات -->
+                    <div class="tab-pane active" id="reviews">
+                        <h3>تقييمات العملاء</h3>
+
+                        <div class="reviews-summary">
+                            <div class="overall-rating">
+                                <div class="rating-number" id="overallRating">0.0</div>
+                                <div class="rating-stars" id="overallStars">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-text" id="ratingCount">لا توجد تقييمات بعد</div>
+                            </div>
+
+                            <div class="rating-bars">
+                                <div class="rating-bar">
+                                    <span>5 نجوم</span>
+                                    <div class="bar">
+                                        <div class="fill" style="width: 0%;"></div>
+                                    </div>
+                                    <span class="percentage">0%</span>
+                                </div>
+                                <div class="rating-bar">
+                                    <span>4 نجوم</span>
+                                    <div class="bar">
+                                        <div class="fill" style="width: 0%;"></div>
+                                    </div>
+                                    <span class="percentage">0%</span>
+                                </div>
+                                <div class="rating-bar">
+                                    <span>3 نجوم</span>
+                                    <div class="bar">
+                                        <div class="fill" style="width: 0%;"></div>
+                                    </div>
+                                    <span class="percentage">0%</span>
+                                </div>
+                                <div class="rating-bar">
+                                    <span>2 نجوم</span>
+                                    <div class="bar">
+                                        <div class="fill" style="width: 0%;"></div>
+                                    </div>
+                                    <span class="percentage">0%</span>
+                                </div>
+                                <div class="rating-bar">
+                                    <span>1 نجمة</span>
+                                    <div class="bar">
+                                        <div class="fill" style="width: 0%;"></div>
+                                    </div>
+                                    <span class="percentage">0%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reviews-container" id="reviewsList">
+                            <!-- التقييمات ستظهر هنا من JavaScript -->
+                            <div class="no-reviews">
+                                <i class="far fa-comment-alt fa-3x"></i>
+                                <p>جاري تحميل التقييمات...</p>
+                            </div>
+                        </div>
+
+                        <!-- إزالة نموذج إضافة التقييم بالكامل -->
+                    </div>
+
+                    <!-- تبويب التفاصيل الإضافية -->
+                    <div class="tab-pane" id="details">
+                        <h3>معلومات إضافية</h3>
+                        <div class="additional-info">
+                            <div class="info-item">
+                                <h4><i class="fas fa-weight"></i> الوزن والأبعاد</h4>
+                                <p>يتم تحديد الوزن والأبعاد الدقيقة حسب الطلب والنموذج المختار.</p>
+                            </div>
+                            <div class="info-item">
+                                <h4><i class="fas fa-paint-brush"></i> خيارات التخصيص</h4>
+                                <p>متوفر بألوان متعددة وأحجام قابلة للتعديل حسب احتياجاتك.</p>
+                            </div>
+                            <div class="info-item">
+                                <h4><i class="fas fa-cogs"></i> مواد التصنيع</h4>
+                                <p>جميع منتجاتنا مصنوعة من مواد عالية الجودة ومقاومة للصدأ والتآكل.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- تبويب الشحن -->
+                    <div class="tab-pane" id="shipping">
+                        <h3>سياسة الشحن والتسليم</h3>
+                        <div class="shipping-info">
+                            <div class="shipping-item">
+                                <h4><i class="fas fa-shipping-fast"></i> مدة التوصيل</h4>
+                                <p>توصيل سريع خلال 24ساعة </p>
+                            </div>
+                            <div class="shipping-item">
+                                <h4><i class="fas fa-money-bill-wave"></i> تكلفة الشحن</h4>
+                                <p>شحن مجاني للطلبات فوق 10000 ريال. </p>
+                            </div>
+                            <div class="shipping-item">
+                                <h4><i class="fas fa-tools"></i> خدمة التركيب</h4>
+                                <p>نوفر خدمة تركيب احترافية مع فريقنا الفني المتخصص.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- منتجات ذات صلة -->
+            <div class="related-products-section">
+                <h2 class="section-title">منتجات ذات صلة</h2>
+                <div class="products-grid" id="relatedProducts">
+                    <!-- سيتم تعبئته بجافاسكريبت -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">
+                        <img src="images/alrfuf1.webp"
+                            alt="شعار الرفوف الحديثة - متجر متخصص في حلول التخزين ورفوف المستودعات والسوبر ماركت والمنازل بجميع انواعها"
+                            loading="lazy">
+                        <span>الرفوف الحديثة</span>
+                    </a>
+                    <p>متجر متخصص في بيع جميع انواع رفوف التخزين عالية الجودةللمستودعات والمخازن والسوبرماركت نقدم حلول
+                        تخزين مبتكرةلتنظيم مساحاتك بمختلف التصاميم والاحجام وبأفضل الأسعار في المملكة العربية السعودية
+                    </p>
+                    <div class="social-links">
+                        <a href="#" aria-label="تويتر"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="انستجرام"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/966534879245" target="_blank" aria-label="واتساب"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="products.html">منتجاتنا</a></li>
+                        <li><a href="about.html">عن الشركة</a></li>
+                        <li><a href="articles.html">المقالات</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                        <li><a href="cart.html">سلة التسوق</a></li>
+                        <li><a href="shipping.html">سياسة الشحن والتوصيل</a></li>
+                        <li><a href="refund.html">سياسة الاستبدال والاسترجاع</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>خدماتنا</h3>
+                    <ul>
+                        <li><a href="products.html#warehouse">رفوف المستودعات</a></li>
+                        <li><a href="products.html#supermarket">رفوف السوبرماركت</a></li>
+                        <li><a href="products.html#home">رفوف منزلية</a></li>
+                        <li><a href="contact.html">استشارات مجانية</a></li>
+                        <li><a href="contact.html">خدمة تركيب ودعم فني </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>تواصل معنا</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> <a href="tel:+966534879245">هاتف</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> المملكة العربية السعودية</li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/966534879245" target="_blank">رابط
+                                واتساب مباشر</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 الرفوف الحديثة. جميع الحقوق محفوظة. | شركة رفوف وتخزين سعودية مرخصة</p>
+                <div class="footer-links">
+                    <a href="privacy.html">سياسة الخصوصية</a>
+                    <a href="terms.html">الشروط والأحكام</a>
+                    <a href="sitemap.html">خريطة الموقع</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        // حل طارئ لقائمة الجوال
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', function () {
+                    navLinks.classList.toggle('show');
+                    this.classList.toggle('active');
+                });
+
+                // إغلاق القائمة عند النقر على رابط
+                navLinks.querySelectorAll('a').forEach(link => {
+                    link.addEventListener('click', function () {
+                        if (window.innerWidth <= 768) {
+                            navLinks.classList.remove('show');
+                            menuToggle.classList.remove('active');
+                        }
+                    });
+                });
+            }
+        });
+
+
+
+    </script>
+
+
+
+
+    <style>
+        /* أنماط طارئة للقائمة */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: fixed;
+                top: 80px;
+                right: 0;
+                width: 100%;
+                max-width: 300px;
+                height: calc(100vh - 80px);
+                background: white;
+                flex-direction: column;
+                padding: 20px;
+                box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+                z-index: 1000;
+                overflow-y: auto;
+            }
+
+            .nav-links.show {
+                display: flex !important;
+            }
+
+            .menu-toggle.active i:before {
+                content: "\f00d" !important;
+                /* أيقونة X */
+            }
+        }
+    </style>
+
+
+</body>
+
+</html>

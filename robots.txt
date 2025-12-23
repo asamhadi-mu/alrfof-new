@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /cart.html
+
+Sitemap: https://modernshelves.netlify.app/sitemap.xml
