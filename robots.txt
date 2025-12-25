@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-
 Disallow: /cart.html
 
-Sitemap: https://modernshelves.netlify.app/sitemap.xml
+Sitemap: https://alrfuf-modern.netlify.app/sitemap.xml
