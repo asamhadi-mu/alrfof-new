@@ -141,7 +141,7 @@
 
                         <div class="form-group">
                             <select id="contactSubject" required>
-                                <option value="">اختر موضوع الرسالة</option>
+                                <option value="اختر موضوع الرسالة">اختر موضوع الرسالة</option>
                                 <option value="استفسار عن منتج">استفسار عن منتج</option>
                                 <option value="طلب عرض سعر">طلب عرض سعر</option>
                                 <option value="دعم فني">دعم فني</option>
@@ -250,7 +250,7 @@
 
     <script src="script.js"></script>
 
-    <!-- كود خاص بصفحة التواصل -->
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             // تهيئة شريط التنقل والسلة
@@ -262,7 +262,7 @@
 
             if (contactForm) {
                 contactForm.addEventListener('submit', function (e) {
-                    e.preventDefault(); // هذا السطر يمنع إعادة تحميل الصفحة!
+                    e.preventDefault();
 
                     const formData = {
                         name: document.getElementById('contactName').value,
@@ -289,7 +289,7 @@
                     // فتح واتساب في نافذة جديدة
                     window.open(whatsappUrl, '_blank');
 
-                    // إشعار النجاح
+
                     if (typeof showNotification === 'function') {
                         showNotification('تم إرسال رسالتك بنجاح! سنتواصل معك قريباً.');
                     } else {

@@ -14,13 +14,13 @@ const products = {
       rating: 4.5,
       reviews: [
         {
-          name: "محمد أحمد",
+          name: "محمد سالم",
           rating: 5,
           date: "2025-10-15",
           comment: "منتج ممتاز وجودة عالية، شكراً الرفوف الحديثة!",
         },
         {
-          name: "سارة العتيبي",
+          name: "ابواحمد العتيبي",
           rating: 4,
           date: "2025-10-10",
           comment: "جيدة ولكن التركيب كان يحتاج بعض الجهد",
@@ -88,7 +88,7 @@ const products = {
       rating: 4.6,
       reviews: [
         {
-          name: "فارس العتيبي",
+          name: "فارس السالمي",
           rating: 5,
           date: "2025-02-15",
           comment: "سهلة التركيب وقوية جداً.وافضل سعر مقارنة ببقية المتاجر",
@@ -161,10 +161,10 @@ const products = {
       rating: 4.6,
       reviews: [
         {
-          name: "فهد الحربي",
+          name: "محمد الحجازي",
           rating: 5,
           date: "2025-02-15",
-          comment: "سهلة التركيب وقوية جداً.",
+          comment: "شكرا الرفوف الحديثة على مصداقيتكم واسعاركم المناسبة",
         },
       ],
       category: "warehouse",
@@ -244,10 +244,11 @@ const products = {
       rating: 4.7,
       reviews: [
         {
-          name: "عبدالله المطيري",
+          name: "عبدالله ابورياض",
           rating: 5,
           date: "2025-11-01",
-          comment: "ساعد في زيادة مبيعات المحل بنسبة 20%",
+          comment:
+            "ساعد في زيادة مبيعات المحل بنسبة 30% بتصميمه الجميل شكرا لكم",
         },
         {
           name: "لمياء الحربي",
@@ -285,7 +286,7 @@ const products = {
           comment: "ساعد في زيادة مبيعات المحل بنسبة 50%",
         },
         {
-          name: "لمياء الحربي",
+          name: "مها العزي",
           rating: 4,
           date: "2025-10-25",
           comment: "تصميم عملي رائع وجذاب للعملاء .شكرا الرفوف الحديثة",
@@ -336,7 +337,7 @@ const products = {
           name: "سعيد مسعد",
           rating: 5,
           date: "2025-01-20",
-          comment: "تصميم عصري وتظهر المنتجات بشكل ممتاز.",
+          comment: "تصميم عصري وتظهر المنتجات بشكل ممتاز.وسعر مناسب",
         },
       ],
       category: "supermarket",
@@ -359,13 +360,13 @@ const products = {
           name: "فاطمة العتيبي",
           rating: 5,
           date: "2025-10-30",
-          comment: "يضيف لمسة أنيقة للمنزل",
+          comment: "يضيف لمسة أنيقة للمطبخ ويساعد في تنظيمه",
         },
         {
           name: "علي الجهني",
           rating: 5,
           date: "2025-10-28",
-          comment: "جودة عالية و ممتازة والتشطيب رائع",
+          comment: "جودة عالية و ممتازة والتصميم رائع",
         },
       ],
       category: "home",
@@ -432,7 +433,7 @@ const products = {
           name: "علي الريساني",
           rating: 5,
           date: "2025-10-18",
-          comment: "ساعد في تنظيم عمايات البيع للسوبر ماركت ",
+          comment: "ساعد في تنظيم عمليات البيع للسوبر ماركت ",
         },
       ],
       category: "accessories",
@@ -455,16 +456,16 @@ const products = {
       rating: 4.4,
       reviews: [
         {
-          name: "محمد احمد",
+          name: "خالد السبعي",
           rating: 4,
           date: "2025-10-22",
-          comment: "تصميم جميل ورائع والسعر مناسب",
+          comment: "تصميم جميل ورائع والسعر مناسب اتمنى منكم المزيد من العروض ",
         },
         {
-          name: "علي الريساني",
+          name: "علي ولد مبارك",
           rating: 5,
           date: "2025-10-18",
-          comment: "ساعد في تنظيم عمايات البيع للسوبر ماركت ",
+          comment: "ساعد في تنظيم عمليات البيع للسوبر ماركت ",
         },
       ],
       category: "accessories",
@@ -483,16 +484,16 @@ const products = {
       rating: 4.4,
       reviews: [
         {
-          name: "محمد احمد",
+          name: "مازن الحميدي",
           rating: 4,
           date: "2025-10-22",
-          comment: "تصميم جميل ورائع والسعر مناسب",
+          comment: "تصميم جميل ورائع و المنتج ما يحتاج اي كلام والسعر مناسب",
         },
         {
-          name: "علي الريساني",
+          name: "علي القاسم",
           rating: 5,
           date: "2025-10-18",
-          comment: "ساعد في تنظيم عمايات البيع للسوبر ماركت ",
+          comment: "ساعد في تنظيم المخزن مناسب جدا للمستودعات ",
         },
       ],
       category: "accessories",
@@ -772,10 +773,6 @@ function loadAllProducts() {
   });
 }
 
-/**
- * تحميل تفاصيل المنتج - النسخة المصلحة نهائياً
- * تعالج مشاكل undefined وتضمن ظهور الصور حتى لو كانت البيانات قديمة
- */
 function loadProductDetail() {
   const urlParams = new URLSearchParams(window.location.search);
   const productId = parseInt(urlParams.get("id"));
@@ -811,8 +808,6 @@ function loadProductDetail() {
   const specsEl = document.getElementById("productSpecs");
   const breadcrumbEl = document.getElementById("breadcrumb");
   const productCodeEl = document.getElementById("productCode");
-
-  // --- 3. نظام معالجة الصور الذكي ---
 
   // دالة داخلية لإصلاح المسار
   const fixPath = (path) => {
@@ -901,9 +896,6 @@ function loadProductDetail() {
   // 6. بيانات SEO
 }
 
-/**
- * دالة تبديل الصورة (تأكد أنها خارج الدالة السابقة)
- */
 function changeMainImage(imgSrc, thumbElement) {
   const mainImg = document.getElementById("mainProductImage");
   if (mainImg) {
@@ -1034,7 +1026,7 @@ function formatReviewDate(dateString) {
     return dateString;
   }
 }
-// إضافة منتج إلى السلة - النسخة المعدلة لدعم مصفوفة الصور
+
 function addToCart(productId) {
   // البحث عن المنتج في البيانات
   let product = null;
@@ -1051,7 +1043,6 @@ function addToCart(productId) {
   if (existingItem) {
     existingItem.quantity += 1;
   } else {
-    // --- التعديل: اختيار الصورة الأولى من المصفوفة images أو استخدام image ---
     let productImg = "";
     if (
       product.images &&
@@ -1109,7 +1100,6 @@ function loadCartItems() {
   // عرض عناصر السلة مع تصحيح المسارات تلقائياً
   cartItemsContainer.innerHTML = cart
     .map((item) => {
-      // تصحيح المسار: إذا كان الرابط لا يبدأ بـ images/ نضبفه له
       let displayImg = item.image || "images/logo.png";
       if (
         displayImg !== "images/logo.png" &&
@@ -1264,7 +1254,6 @@ function checkoutViaWhatsApp() {
 
 // تهيئة نموذج التواصل (أرسل لنا رسالة)
 function initContactForm() {
-  // لاحظ هنا استخدمنا id="contactForm" كما في الـ HTML الخاص بك
   const form = document.getElementById("contactForm");
 
   if (!form) return;
@@ -1283,8 +1272,6 @@ function initContactForm() {
     // إرسال عبر واتساب
     const phoneNumber = "966534879245";
 
-    // تنسيق الرسالة لتظهر بشكل احترافي في واتساب
-    // استبدل الجزء القديم بهذا التنسيق المحدث
     const whatsappMessage =
       `*طلب جديد (موقع الرفوف الحديثة)*%0A%0A` +
       `👤 *الاسم:* ${formData.name}%0A` +
@@ -1296,7 +1283,6 @@ function initContactForm() {
     // فتح واتساب
     window.open(whatsappUrl, "_blank");
 
-    // إشعار النجاح (تأكد من وجود دالة showNotification لديك)
     if (typeof showNotification === "function") {
       showNotification("تم تجهيز رسالتك! يرجى إرسالها عبر الواتساب.");
     } else {
@@ -1333,7 +1319,10 @@ function updateMetaTags() {
   const pageTitle = document.title;
   const metaDescription = document.querySelector('meta[name="description"]');
 
-  if (pageTitle.includes("الرفوف الحديثة") && metaDescription) {
+  if (
+    pageTitle.includes("الرفوف الحديثة لرفوف المستودعات والسوبر ماركت") &&
+    metaDescription
+  ) {
     // إضافة Open Graph tags ديناميكياً
     const ogTitle = document.createElement("meta");
     ogTitle.setAttribute("property", "og:title");
@@ -1589,8 +1578,6 @@ function updateRatingBars(reviews) {
     if (counts[r.rating] !== undefined) counts[r.rating]++;
   });
 
-  // تحديث كل بار في الـ HTML
-  // ملاحظة: الـ HTML يبدأ من 5 نجوم (البار الأول) وينزل لـ 1 نجمة
   const ratingBars = document.querySelectorAll(".rating-bar");
 
   [5, 4, 3, 2, 1].forEach((star, index) => {
@@ -1875,11 +1862,6 @@ function setupProductTabs() {
   });
 }
 
-// إعداد نموذج التقييم
-
-// ============================================
-// تحديث الدالة الرئيسية لتحميل الصفحة
-// ============================================
 document.addEventListener("DOMContentLoaded", function () {
   initNavigation();
   initCart();
@@ -1934,7 +1916,7 @@ function updateMetaTags() {
   if (!product) return;
 
   // تحديث العنوان
-  document.title = `${product.name} - الرفوف الحديثة`;
+  document.title = `${product.name} - الرفوف الحديثة لرفوف المستودعات والسوبرماركت`;
 
   // تحديث الوصف والكلمات المفتاحية فقط في صفحة المنتج
   const metaDescription = document.querySelector('meta[name="description"]');
