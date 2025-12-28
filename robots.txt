@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /cart.html
 
-Sitemap: https://alrfuf-modern.netlify.app/sitemap.xml
+Sitemap: https://alrfof-modern.netlify.app/sitemap.xml
