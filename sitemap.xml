@@ -4,73 +4,73 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <url>
-    <loc>https://alrfuf-modern.netlify.app/</loc>
+    <loc>https://alrfof-modern.netlify.app/</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
 
   <url>
-    <loc>https://alrfuf-modern.netlify.app/products.html</loc>
+    <loc>https://alrfof-modern.netlify.app/products.html</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
 
   <url>
-    <loc>https://alrfuf-modern.netlify.app/product-detail.html</loc>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://alrfuf-modern.netlify.app/articles.html</loc>
+    <loc>https://alrfof-modern.netlify.app/articles.html</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://alrfuf-modern.netlify.app/about.html</loc>
+    <loc>https://alrfof-modern.netlify.app/about.html</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
 
   <url>
-    <loc>https://alrfuf-modern.netlify.app/contact.html</loc>
+    <loc>https://alrfof-modern.netlify.app/contact.html</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
 
   <url>
-    <loc>https://alrfuf-modern.netlify.app/shipping.html</loc>
+    <loc>https://alrfof-modern.netlify.app/shipping.html</loc>
     <lastmod>2025-12-28</lastmod>
     <priority>0.50</priority>
   </url>
 
   <url>
-    <loc>https://alrfuf-modern.netlify.app/refund.html</loc>
+    <loc>https://alrfof-modern.netlify.app/refund.html</loc>
     <lastmod>2025-12-28</lastmod>
     <priority>0.50</priority>
   </url>
 
   <url>
-    <loc>https://alrfuf-modern.netlify.app/privacy.html</loc>
+    <loc>https://alrfof-modern.netlify.app/privacy.html</loc>
     <lastmod>2025-12-28</lastmod>
     <priority>0.50</priority>
   </url>
 
   <url>
-    <loc>https://alrfuf-modern.netlify.app/terms.html</loc>
+    <loc>https://alrfof-modern.netlify.app/terms.html</loc>
     <lastmod>2025-12-28</lastmod>
     <priority>0.50</priority>
   </url>
 
   <url>
-    <loc>https://alrfuf-modern.netlify.app/sitemap.html</loc>
+    <loc>https://alrfof-modern.netlify.app/sitemap.html</loc>
     <lastmod>2025-12-28</lastmod>
     <priority>0.40</priority>
   </url>
