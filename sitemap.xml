@@ -5,73 +5,169 @@
 
   <url>
     <loc>https://alrfof-modern.netlify.app/</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-01-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
 
   <url>
     <loc>https://alrfof-modern.netlify.app/products.html</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
 
   <url>
-    <loc>https://alrfof-modern.netlify.app/product-detail.html</loc>
-    <lastmod>2025-12-28</lastmod>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=1</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=2</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=3</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=4</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=5</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=6</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=7</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=8</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=9</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=10</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=11</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=12</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=13</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=14</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=15</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=16</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://alrfof-modern.netlify.app/product-detail.html?id=17</loc>
+    <lastmod>2026-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://alrfof-modern.netlify.app/articles.html</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <url>
     <loc>https://alrfof-modern.netlify.app/about.html</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
 
   <url>
     <loc>https://alrfof-modern.netlify.app/contact.html</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
 
   <url>
     <loc>https://alrfof-modern.netlify.app/shipping.html</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-01-01</lastmod>
     <priority>0.50</priority>
   </url>
 
   <url>
     <loc>https://alrfof-modern.netlify.app/refund.html</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-01-01</lastmod>
     <priority>0.50</priority>
   </url>
 
   <url>
     <loc>https://alrfof-modern.netlify.app/privacy.html</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-01-01</lastmod>
     <priority>0.50</priority>
   </url>
 
   <url>
     <loc>https://alrfof-modern.netlify.app/terms.html</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-01-01</lastmod>
     <priority>0.50</priority>
   </url>
 
   <url>
     <loc>https://alrfof-modern.netlify.app/sitemap.html</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-01-01</lastmod>
     <priority>0.40</priority>
   </url>
 
